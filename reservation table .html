@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="icon" href="..//project of website/pics/HOME PICS/download.jpg">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- online way to get bootstrap --> 
+
+    <style>
+        body{
+            background-color: black;
+        }
+        
+       
+    </style>
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark " style="position: fixed;">
+        <a href="..//project of website/home.html" class="navbar-brand" style="font-size: 200%; padding-left: 200px;"> ROSE PLACE RESTUARENT</a>
+    
+        <div>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#bc">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+    
+        </div>
+    
+        
+        <div class="collapse navbar-collapse" id="bc">
+            <ul class="navbar-nav " style="padding-left: 150px;">
+                <li class="nav-item">
+                    <a href="..//project of website/home.html" class="nav-link"> HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="..//project of website/menu.html" class="nav-link"> MENU </a>
+                </li>
+                <li class="nav-item">
+                    <a href="..//project of website/reservation.html" class="nav-link">RESERVATION </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">GALLARY</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">EVENT </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">CONTECT US </a>
+                </li>
+            </ul>
+            </div>
+    </nav>
+
+
+
+    <br><br><br><br><br><div style="color: white; margin-left: 20%; margin-right: 20%; border: 2px solid white;border-left:0.05 ; border-right: 0.05;">
+        <h1 style="text-align: center;"> RESERVED TABLE</h1>
+        <P style="text-align: center;"><br>PLEASE FILL THE FROM BELOW ACCURATELU TO ANABLE US SERVED YOU BETTER ,WELCOM</P>
+    </div>
+
+    <div style=" border: 2px solid white; width: 60%; margin: auto; color: white ;  ">
+        <form action="">
+            <label for="a"  ><br><br> <b>FULL NAME:</b> 
+            </label>
+            <label for="a" style="margin-left: 2%;">
+                FIRST NAME <input type="text" id="a" placeholder="FIRST NAME" required autofocus>
+            </label>
+            <label for="b" style="margin-left: 2%;">LAST NAME <input type="text" id="b" placeholder="LAST NAME" required></label>
+        
+        <br>
+            <label for="e" ><br>EMAIL:
+                <input type="email" id="e" placeholder="EMAIL" required autocomplete="on">
+            </label>
+        
+        <br>
+            <label for="c"><br> PHONE:
+                <input type="text" id="c" placeholder="PHONE NUMBER" required pattern="{1-9}[11]" title="only 11 number">
+            </label>
+        
+        <br>
+            <label for="d"><br> #OF GUESTS:
+                <input type="text" id="d" placeholder="GUESTS" required>
+            </label>
+            
+            <p style="font-size: 130%;"><br>RESERVATION</p>
+
+            
+                <label for="f" ><br> RESERVATION TYPE:
+                    <input type="text" id="f" placeholder="SELECT TYPE" list="name" required>
+                    <datalist id="name">
+                        <option value="Dinner"></option>
+                        <option value="Birthday"></option>
+                        <option value="ANNIVERSARY"></option>
+                        <option value="Private"></option>
+                        <option value="Wedding"></option>
+                        <option value="Holiday"></option>
+                        <option value="Engagement Party"></option>
+                        <option value="Corporate"></option>
+                        <option value="Other"></option>
+        
+                    </datalist>
+                </label>
+           
+            <br>
+                <label for="c"><br> IF OTHER ABOVE,PLEASE SPECIFY:
+                    <input type="text" id="c" required>
+                </label>
+           <br>
+            
+                <label for="d"><br> ANY SPECIAL REGUEST:
+                    <input type="text" id="d" placeholder="REQUEST" required>
+                </label><br><br>
+                <label for="v"> <BUtton style="margin-left: 400%;" class="bg-primary">RESERVED</BUtton>
+                        
+                </label>
+       </form>
+    </div>
+</body>
+</html>
